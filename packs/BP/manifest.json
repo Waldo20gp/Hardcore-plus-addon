@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Hardcore experience plus",
+    "description": "Hardcore plus add-on, for a Hardcore experience with friends with low time availability",
+    "uuid": "d29f93a6-434f-483f-9399-c65fc5a409d8",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 50]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "93d3493c-16f3-49f7-a023-99b99e9269f7",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    }
+  ]
+}

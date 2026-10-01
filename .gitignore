@@ -1,2 +1,19 @@
+# --- Dependencias: npm las reconstruye desde package.json ---
 node_modules/
-tools/
+
+# --- Artefactos generados al empaquetar (reproducibles) ---
+dist/
+*.mcpack
+*.mcaddon
+
+# --- Basura de Windows ---
+Thumbs.db
+desktop.ini
+
+# --- Logs de npm cuando falla una instalación ---
+npm-debug.log*
+
+# --- VS Code: ignorar lo personal, versionar lo del proyecto ---
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
