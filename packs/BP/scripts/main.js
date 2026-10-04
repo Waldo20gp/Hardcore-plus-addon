@@ -8,7 +8,7 @@ world.afterEvents.entityDie.subscribe(
     // pero el editor no lo sabe. Esto lo hace explícito.
     if (!(deadEntity instanceof Player)) return;
 
-    world.sendMessage(`${deadEntity.name} murió. Causa: ${damageSource.cause}`);
+    world.sendMessage(`${deadEntity.name} murió. se murio A Causa de : ${damageSource.cause}`);
   },
   { entityTypes: ["minecraft:player"] }
 );

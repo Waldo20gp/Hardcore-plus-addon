@@ -14,7 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/Waldo20gp/Hardcore-plus-addon.git"
   },
-  "scripts": {},
+  "scripts": {
+    "deploy": "node tools/deploy.js"
+  },
   "devDependencies": {
     "@minecraft/server": "2.10.0"
   }
