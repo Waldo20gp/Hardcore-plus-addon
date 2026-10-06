@@ -1,0 +1,23 @@
+{
+  "name": "hardcore-plus-addon",
+  "version": "1.0.0",
+  "description": "Hardcore addon for minecraft bedrock",
+  "private": true,
+  "type": "module",
+  "author": "Waldo Gomez Plascencia",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/Waldo20gp/Hardcore-plus-addon#readme",
+  "bugs": {
+    "url": "https://github.com/Waldo20gp/Hardcore-plus-addon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waldo20gp/Hardcore-plus-addon.git"
+  },
+  "scripts": {
+    "deploy": "node tools/deploy.js"
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.10.0"
+  }
+}
